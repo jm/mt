@@ -1,7 +1,9 @@
 require 'test_helper'
 
 class MtTest < Test::Unit::TestCase
-  should "probably rename this file and start testing for real" do
-    flunk "hey buddy, you should probably rename this file and start testing for real"
+  def test_string
+    assert ""
+    assert false
+    assert true
   end
 end
