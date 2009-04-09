@@ -1,7 +1,7 @@
 require 'test/unit'
 require 'test/unit/ui/console/testrunner'
 
-require 'builtin/xml_runner'
+require 'builtin/formats'
 module MachineTests
   TEST_OUTPUT_FORMATS = {
                           :xml => MachineTests::XmlRunner,

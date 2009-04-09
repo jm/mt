@@ -1,0 +1,1 @@
+require 'builtin/formats/xml_runner'
