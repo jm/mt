@@ -8,8 +8,11 @@ require 'mt'
 include MachineTests
 
 # We want XML output (for now)
-output :yaml
-runner :fail_now
+
+MachineTests::config do |config|
+  config.formatter = :yaml
+  config.runner = :fail_now
+end
 
 class Test::Unit::TestCase
 end
