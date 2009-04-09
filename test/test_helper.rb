@@ -9,6 +9,7 @@ include MachineTests
 
 # We want XML output (for now)
 output :yaml
+runner :fail_now
 
 class Test::Unit::TestCase
 end

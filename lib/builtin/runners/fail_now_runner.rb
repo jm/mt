@@ -1,7 +1,7 @@
 module MachineTests
   class FailNowRunner < Test::Unit::UI::Console::TestRunner
     def add_fault(fault)
-      # Show the fault NOW rather than at the end
+      format_fault fault
     end
   end
 end

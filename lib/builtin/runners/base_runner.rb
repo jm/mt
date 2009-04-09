@@ -18,9 +18,7 @@ module MachineTests
     end
 
     def finished(elapsed_time)
-      @faults.each do |f|
-        puts fault.inspect
-      end
+      format_faults @faults
     end
   end
 end
