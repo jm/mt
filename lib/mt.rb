@@ -7,7 +7,7 @@ module MachineTests
                           :xml => MachineTests::XmlRunner,
                           # :html => MachineTests::HtmlRunner,
                           # :json => MachineTests::JsonRunner,
-                          # :yaml => MachineTests::YamlRunner
+                          :yaml => MachineTests::YamlRunner
                         }
   
   def output(format)

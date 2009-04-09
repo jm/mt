@@ -6,4 +6,12 @@ class MtTest < Test::Unit::TestCase
     assert false
     assert true
   end
+  
+  def test_pass
+    assert true
+  end
+  
+  def test_fail
+    assert false
+  end
 end

@@ -8,7 +8,7 @@ require 'mt'
 include MachineTests
 
 # We want XML output (for now)
-output :xml
+output :yaml
 
 class Test::Unit::TestCase
 end
