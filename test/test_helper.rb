@@ -11,7 +11,7 @@ include MachineTests
 
 MachineTests::config do |config|
   config.formatter = :yaml
-  config.runner = :fail_now
+  config.runner = :base
 end
 
 class Test::Unit::TestCase
